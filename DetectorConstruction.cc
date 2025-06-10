@@ -740,27 +740,6 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 	false,
 	0,
 	checkOverlaps);
-
-
-  // DETECTOR ***AVANCE***considerar poner un elemento como detector
-  
-  // G4double rmind = 0*cm, rmaxd = 3*cm;
-  // G4double zd = 120*cm;
-  // G4double aid = 0*deg, afd = 360*deg;
-   
- // auto solidDetec = new G4Tubs("detector", rmind, rmaxd, zd, aid, afd);
-  
-  // auto logicDetec = new G4LogicalVolume(solidDetec, detector_mat, "detector");
-  
-  // new G4PVPlacement(nullptr,
-  //	positions[3],
-  //	logicDetec,
-  //	"detector",
-  //	logicEnv,
-  //	false,
-  //	0,
-  //	checkOverlaps);
-  
   
 
   // Set Shape as scoring volume
@@ -781,12 +760,6 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 
 }
 
-
-
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
-
-
 }
-
-
